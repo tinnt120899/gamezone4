@@ -1,0 +1,535 @@
+body {
+    font-family: Roboto, serif;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.container-fluid {
+    background-color: rgba(2, 25, 60, 0.9);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    overflow-x: hidden !important;
+}
+
+.main-background {
+    background: #204680 !important;
+}
+
+.body-content {
+    background-image: linear-gradient(to bottom, rgba(2, 25, 60, 0.6) 0%,
+    rgba(2, 25, 60, 0.7) 100%),
+    url("img/mask@3x.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*opacity: 1;*/
+    width: 100%;
+
+}
+
+.footer-content {
+    background-image: linear-gradient(to top, rgba(2, 25, 60, 1) 100%,
+    rgba(11, 38, 80, 1) 0%);
+    height: 600px;
+}
+
+
+.text-primary {
+    color: #02b6ff !important;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom, rgba(2, 25, 60, 0.8) 0%,
+    rgba(2, 25, 60, 0.9) 100%),
+    url("img/group-22@2x.png");
+/*background-image: url("img/group-22@2x.png");*/
+background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+.sub-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d3d9e0;
+}
+
+.text-title {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a2adbf;
+}
+
+.bg-danger {
+    background: #0b3c91 !important;
+}
+
+.bg-save {
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #ff7633, #ffc700);
+
+    color: white;
+    font-weight: bold;
+
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.parent {
+    position: relative;
+    max-height: 900px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.absolute-carousel {
+    position: absolute;
+    top: 60%;
+}
+
+.snow {
+    position: relative;
+    bottom: 20%;
+    right: 20%;
+    opacity: 0.8;
+}
+
+.snow-2x {
+    position: absolute;
+    top: 0;
+    left: -30%;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.hr-bottom {
+    border-bottom: solid #017fff 4px;
+}
+
+.bg-none {
+    background-color: #204680 !important;
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    width: 100%;
+}
+
+.bg-primary {
+    background-color: #0169bf !important;
+}
+
+.bg-info {
+    background-color: #204680 !important;
+}
+
+.border-radius {
+    border-radius: 20px !important;
+}
+
+.d-content {
+    display: flex;
+}
+
+.img-product-size {
+    min-height: 142px !important;
+    width: 100%;
+}
+
+
+.border-radius-search {
+    border-radius: 20px !important;
+    border: solid 1px #707070 !important;
+}
+
+.border-radius-btn {
+    width: 160px;
+    height: 38px;
+    border-radius: 10px;
+    border: solid 1px #02b6ff;
+    background-image: linear-gradient(to bottom, #02b6ff, #0158b1);
+
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.tag-slider {
+    position: absolute;
+    top: 25px;
+    right: -25px;
+    width: 136px;
+    transform: rotatez(40deg);
+}
+
+.title-header {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+}
+
+.radius-28 {
+    border-radius: 28px;
+}
+
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.title {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background: #05193c;
+    color: white;
+    padding: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2.double:before {
+    /* this is just to undo the :before styling from above */
+    border-top: none;
+}
+
+h2.double:after {
+    border-bottom: 1px solid blue;
+    -webkit-box-shadow: 0 1px 0 0 #204680;
+    -moz-box-shadow: 0 1px 0 0 #204680;
+    box-shadow: 0 1px 0 0 #204680;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.nav-tabs {
+    border-bottom: 4px solid #204680;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0;
+}
+
+a.nav-link {
+    width: 160px;
+    background-image: linear-gradient(225deg, #f7f8fa 25%, transparent 20%),
+    linear-gradient(to top, #0169bf, #0169bf);
+    color: #FFFFFF;
+    border-radius: 0 !important;
+    /*border: 2px solid #f7f8fa;*/
+    border: 0 !important;
+    padding: 8px 10px !important;
+    font-size: 12px;
+}
+
+.nav-tabs .nav-link.active {
+    background-image: linear-gradient(225deg, #f7f8fa 25%, transparent 20%),
+    linear-gradient(to top, #204680, #204680);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card-left {
+    background-color: rgba(5, 25, 60, 0.6);
+}
+
+.card-left-1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 60px;
+    border: 0;
+    align-items: center;
+    text-align: center;
+    /*display: block;*/
+}
+
+.card-input {
+    border-radius: 5px;
+    background-color: #e8e7e7;
+    align-items: center;
+    height: 20px;
+    border: 0;
+}
+
+.card-icon {
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #02b6ff, #0158b1);
+    height: 20px;
+    padding: 0;
+    border: 0;
+}
+
+.card-icon i {
+    padding-top: 2px;
+}
+
+.card-banking {
+    background: white;
+    border-radius: 10px;
+}
+
+.input-number {
+    height: 20px;
+    padding: 0 6px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+    border: 0;
+}
+
+.page-item {
+    border-radius: 10px !important;
+}
+
+.page-link {
+    color: #204680;
+    border-radius: inherit !important;
+}
+
+.searchInput {
+
+    color: #a1a1a1 !important;
+    font-size: 12px;
+    background-image: url('img/icon-24-px-ic-search.png');
+    background-position: left 10px center;
+
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    margin: 8px;
+
+    /*opacity: 0.5;*/
+    border-radius: 20px;
+    border: solid 1px #7587a6;
+    background-color: #ffffff;
+
+}
+
+.title-menu {
+    color: #ffffff !important;
+    width: auto !important;
+    background-image: none !important;
+
+}
+
+/*card-product*/
+
+
+.product-card {
+    position: relative;
+    width: 100%;
+    background: #204680;
+}
+
+.badge {
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background-image: linear-gradient(255deg, #02b6ff, #0158b1);
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 12px 0;
+}
+
+.favorite {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.product-price {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff7633;
+    align-items: center;
+    display: flex;
+}
+
+.product-price small {
+    font-size: 60%;
+    text-decoration: line-through;
+    display: block;
+    color: #a2adbf;
+}
+
+/*radio-button*/
+
+.custom-radios div {
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    border: solid 2px #017fff;
+    background-color: rgba(1, 127, 255, 0.5);
+    height: 60px;
+    width: 100%;
+
+}
+
+.custom-radios .left {
+    background-image: url("img/bank.png");
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+}
+
+.custom-radios .right {
+    background-image: url("img/vi.png");
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+}
+
+.custom-radios input[type=radio] {
+    display: none;
+}
+.custom-radios input[type=radio] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-size: 14px;
+}
+
+.custom-radios input[type=radio] + label span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /*line-height: 44px;*/
+}
+.custom-radios input[type=radio] + label span img {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.custom-radios input[type=radio]#color-1 + label span {
+    background-color: #ffffff;
+}
+.custom-radios input[type=radio]#color-2 + label span {
+    background-color: #ffffff;
+}
+.custom-radios input[type=radio]:checked + label span img {
+    opacity: 1;
+}
+
+hr.dotted  {
+    width: 96%;
+    border-top: 2px dashed #8c8b8b;
+}
+
+/*input-upload*/
+.input-container {
+    /*padding-bottom: 1em;*/
+    border-radius: 10px;
+    border: solid 1px #d3d9e0;
+    background-color: #f7f8fa;
+}
+
+.left-and-right-inner-addon {
+    position: relative;
+}
+.left-and-right-inner-addon input {
+    padding-right: 35px !important;
+    padding-left: 60px !important;
+}
+.left-and-right-inner-addon img.left {
+    position: absolute;
+    pointer-events: none;
+}
+.left-and-right-inner-addon button.right {
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+
+    border-radius: 14px;
+    background-color: #204680;
+}
+
+
+.font-10 {
+    font-size: 10px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 767px) {
+
+    a.nav-link {
+        width: 120px !important;
+        font-size: 10px !important;
+    }
+
+    .nav-tabs .nav-link.active {
+        font-size: 11px !important;
+    }
+}
