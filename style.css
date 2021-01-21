@@ -147,6 +147,10 @@ background-repeat: no-repeat;
     background-color: #204680 !important;
 }
 
+.text-info {
+    color: #204680 !important;
+}
+
 .border-radius {
     border-radius: 20px !important;
 }
@@ -286,6 +290,10 @@ a.nav-link {
     align-items: center;
     text-align: center;
     /*display: block;*/
+}
+
+.card-right {
+    background-color: #fff;
 }
 
 .card-input {
@@ -494,7 +502,7 @@ hr.dotted  {
 }
 .left-and-right-inner-addon button.right {
     position: absolute;
-    right: 0px;
+    right: 0;
     pointer-events: none;
 
     border-radius: 14px;
