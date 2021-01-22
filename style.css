@@ -509,13 +509,56 @@ hr.dotted  {
     background-color: #204680;
 }
 
+:focus {
+    outline: none !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #3e4559;
+    outline: none;
+    box-shadow: none;
+}
+
+.label-info {
+    font-size: 12px;
+    border: solid 2px #3e4559;
+    border-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    color: #7587a6;
+    padding-left: 12px;
+}
+
+.input-info {
+    border: solid 2px #3e4559;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0 0 0 6px;
+}
+
+.input-group-text {
+    border: solid 2px #3e4559;
+    background-color: #ffffff;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0 0 6px 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
 
 .font-10 {
     font-size: 10px;
 }
 
 .font-20 {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7587a6;
 }
 
 button:focus {
